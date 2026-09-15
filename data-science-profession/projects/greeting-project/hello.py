@@ -10,7 +10,7 @@ def greet_user():
   name = input("Enter your favorite NFL team")
   if name == "49ers" or "Niners" in name:
     print("Bang Bang Niner Gang")
-  elif "Rams" in name:
+  elif "Rams" in name or "rams" in name:
     print("Same old sorry ass Lambs")
   else:
     print("My favorite team is better than your favorite team")
