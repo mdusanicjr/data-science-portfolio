@@ -12,6 +12,10 @@ def greet_nfl_fan():
     print("Bang Bang Niner Gang")
   elif "Rams" in name or "rams" in name:
     print("Same old sorry ass Lambs")
+  elif "raiders" in name.lower():
+    print("Can you believe that 2003 was 23 years ago?")
+  elif "jets" or "browns" in name.lower():
+    print("Stop it, get some help.")
   else:
     print("My favorite team is better than your favorite team")
 
