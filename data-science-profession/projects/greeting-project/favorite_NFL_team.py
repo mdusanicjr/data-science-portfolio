@@ -6,7 +6,7 @@
 # if __name__ == "__main__":
 # greet_user()
 
-def greet_user():
+def greet_nfl_fan():
   name = input("Enter your favorite NFL team")
   if name == "49ers" or "Niners" in name:
     print("Bang Bang Niner Gang")
@@ -16,4 +16,4 @@ def greet_user():
     print("My favorite team is better than your favorite team")
 
 if __name__ == "__main__":
-  greet_user()
+  greet_nfl_fan()
